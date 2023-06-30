@@ -8,26 +8,6 @@
 
         private Stack<double> numberStack = new Stack<double>();
 
-        private double add ( double firstNumber, double secondNumber )
-        {
-            return firstNumber + secondNumber;
-        }
-
-        private double subtract(double firstNumber, double secondNumber)
-        {
-            return firstNumber - secondNumber;
-        }
-
-        private double multiply(double firstNumber, double secondNumber)
-        {
-            return firstNumber * secondNumber;
-        }
-
-        private double divide(double firstNumber, double secondNumber)
-        {
-            return firstNumber / secondNumber;
-        }
-
         private bool isMathOperation( String token )
         {
             String mathOperations = "+-*/";
